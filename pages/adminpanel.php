@@ -21,7 +21,7 @@ $DBcon->close();
 <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"> 
 <link href="../bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> 
 
-<link rel="stylesheet" href="../css/style.css" type="text/css" />
+<link rel="stylesheet" href="../css/adminpanel.css" type="text/css" />
 </head>
 <body>
 

@@ -10,5 +10,5 @@ if (!isset($_SESSION['userSession'])) {
 if (isset($_GET['logout'])) {
 	session_destroy();
 	unset($_SESSION['userSession']);
-	header("Location: ../index.php");
+	header("Location: ../index.html");
 }

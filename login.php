@@ -41,7 +41,7 @@ if (isset($_POST['btn-login'])) {
 <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="button.js"></script>
-<link rel="stylesheet" href="css/style.css" type="text/css" />
+<link rel="stylesheet" href="css/adminpanel.css" type="text/css" />
 </head>
 <body>
 
