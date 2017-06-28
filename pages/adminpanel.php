@@ -42,6 +42,11 @@ $DBcon->close();
           		
             <li><h5 style="color: white; text-align: center;"><a href="../includes/logout.php?logout"><span class="glyphicon glyphicon-log-out"></span>&nbsp; Logout</a></h3></li>
         	</ul>
+        	
+    <ul style="padding-top: 50px; text-decoration: none; list-style-type:none;">
+	    <li style="padding-bottom: 5px; "><a href=""><h4>Algemeen</h4></a></li>
+	    <li><a href=""><h4>Club</h4></a></li>
+    </ul>
 </aside>
 	
 	

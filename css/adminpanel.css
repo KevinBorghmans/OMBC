@@ -19,6 +19,8 @@ h1 { color: #636363; }
 
 h3 { color: #FFFFFF; }
 
+h4 { color: #FFFFFF; font-size: 16px; text-decoration: none; }
+
 form {
 	width: 380px;
 	margin: 4em auto;
