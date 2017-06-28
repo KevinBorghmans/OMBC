@@ -262,8 +262,9 @@ nav{
 
 aside{
 	width: 278px;
-	height: 88.25vh;	
+	height: 90.25vh;	
 	background-color: #363636;
+	float: left;
 }
 
 .user-img-size{
@@ -281,3 +282,28 @@ a{
 footer img:hover { opacity: .83; }
 
 footer img:focus , footer a:focus { outline: none; }
+
+.content {
+	width: 1065px;
+	height: 820.2px;
+	background-color: #ffffff;
+	float: left;
+	margin: 20px auto;
+}
+
+.adminchangetitle{
+	width: 100%;
+	height: 72px;
+	border-bottom: 1px solid #E4E6EA;
+}
+
+.containerchange{
+	width: 100%;
+	height: 72px;
+	border-bottom: 1px solid #E4E6EA;
+	display: flex;
+}
+
+.left{ width: 20%; padding-left: 20px;}
+.mid{ width: 70%; padding-left: 20px; background-color: #F7F7F7;}
+.right{ width: 10%; padding-left: 20px;}

@@ -30,7 +30,7 @@ $DBcon->close();
         		<img class="img-size" src="../img/logo.png" alt="logo"/>
         	</div>
         	<div class="adminpanel">
-	        	<h1></h1>
+	        	<h2 style="font-size: 20px; padding-left: 20px; padding-top: 18px;"> ADMIN PANEL > ALGEMEEN / Verenigingen </h2>
         	</div>
         </nav>
 
@@ -44,11 +44,21 @@ $DBcon->close();
         	</ul>
         	
     <ul style="padding-top: 50px; text-decoration: none; list-style-type:none;">
-	    <li style="padding-bottom: 5px; "><a href=""><h4>Algemeen</h4></a></li>
-	    <li><a href=""><h4>Club</h4></a></li>
+	    <li style="padding-bottom: 5px;"><a href=""><h4>Algemeen</h4></a></li>
+	    <li style="padding-bottom: 5px;"><a href=""><h4>Club</h4></a></li>
+	    <li><a href=""><h4>Persoonlijk</h4></a></li>
     </ul>
 </aside>
-	
+	<div class="container" style="float: left;">
+		<section class="content">
+			<div class="adminchangetitle"></div>
+				<section class="containerchange">
+					<div class="left">T' Steegje</div>
+					<div class="mid">Test@test.nl</div>
+					<div class="right">Icoon</div>
+				</section>
+		</section>
+	</div>
 	
 </div>
 
