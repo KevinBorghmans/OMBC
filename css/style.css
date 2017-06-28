@@ -1,0 +1,1080 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Merriweather:400,400i,700');
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 24px;
+}
+
+h2 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #797979;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #797979;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 35px;
+    color: #797979;
+}
+
+table {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 14px;
+    color: #797979;
+    margin-bottom: 20px;
+}
+
+b {
+    font-weight: 700;
+    font-style: normal !important;
+    display: block;
+}
+
+header {
+    width: 100%;
+    height: 140px;
+    background-color: #467853;
+}
+
+#logo {
+    position: relative;
+    float: left;
+    margin: 44px 0px;
+}
+
+nav {
+    position: relative;
+    float: right;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    display: inline;
+    vertical-align: middle;
+    line-height: 140px;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-left: 20px;
+}
+
+#desktopMenu .active {
+    text-decoration: underline;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 200px;
+    border-top: 1px #ebedf0 solid;
+    z-index: 1; 
+    top: 70px;
+    z-index: 99;
+    margin-left: 10px;
+}
+
+
+.dropdown-content li {
+    border-bottom: 1px #ebedf0 solid;
+    text-transform: none !important;
+    font-size: 14px !important;
+    margin-left: 0px !important;
+    padding: 0px 20px;
+    width: calc(100% - 40px);
+    line-height: 50px !important;
+    list-style: none;
+}
+
+#historieBtn:hover .dropdown-content {
+    display: block;
+}
+
+#hamburgerIcon, #hamburgerIconHide {
+    display: none;
+}
+
+    
+#mobileMenu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #467853;
+    z-index: 99;
+}
+
+/* Programma Tabel */
+
+#programma {
+    display: block;
+    clear: both;
+    background-color: #ebedf0;;
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 25px 0px 0px 0px;
+    position: relative;
+    z-index: 0;
+}
+
+#programmaMenu {
+    clear: both;
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    height: 70px;
+    z-index: 99;
+}
+
+#programmaMenuBtn {
+    display: none;
+}
+    
+#programmaMenu h1 {
+    width: auto;
+    display: inline;
+    float: left;
+    margin-top: 23px;
+    color: #467853;
+    border-bottom: 4px solid #467853;
+    padding-bottom: 19px;
+}
+
+#programmaMenu ul {
+    width: auto;
+    display: inline;
+    float: left;
+}
+
+#programmaMenu ul li {
+    line-height: 70px;
+    margin-left: 30px;
+}
+
+#programmaMenu .active {
+    border-bottom: 4px solid #467853;
+    line-height: 66px !important;
+    color: #467853 !important;
+}
+
+#programmaMenu ul li a {
+    color: #979899;
+    font-size: 24px;
+    text-transform: none;
+    letter-spacing: 0;
+    padding: 0;
+}
+
+#historieBtn {
+    float: right !important;
+    font-size: 24px;
+    text-transform: none;
+    letter-spacing: 0;
+    padding: 0 20px;
+    line-height: 70px;
+    font-family: 'Fjalla One', sans-serif;
+    border: 0px;
+    background-color: inherit;
+    color: #979899;
+    z-index: 99;
+}
+
+#Chevron_down {
+    fill: #979899;
+    width: 20px;
+    height: 20px;
+}
+
+.menuSpacer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 1px;
+    background-color: #EBEDF0;
+}
+
+.programmaTable {
+    width: 100%;
+    float: left;
+    height: auto;
+    background-color: #f7f7f7;
+    text-align: center;
+    margin-bottom: 25px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.programmaTable th {
+    background-color: #fff;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.programmaTable td {
+    padding: 20px 30px;
+    border-top: 1px solid #d8d8d8;
+    white-space: nowrap;
+}
+
+.programmaTable td:nth-child(1), .programmaTable td:nth-child(3), .programmaTable td:nth-child(5) {
+    background-color: #fff;
+}
+
+
+.programmaTable td:nth-child(2), .programmaTable td:nth-child(4), .programmaTable td:nth-child(5), .programmaTable td:nth-child(6) {
+    text-align: left;
+}
+
+.detailTable {
+    width: 20%;
+    float: left;
+    height: auto;
+    background-color: #f7f7f7;
+    text-align: center;
+    margin-bottom: 25px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.detailTable th {
+    background-color: #fff;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.detailTable td {
+    padding: 20px 30px;
+    border-top: 1px solid #d8d8d8;
+    white-space: nowrap;
+}
+
+.detailTable td:nth-child(2), .detailTable td:nth-child(4), .detailTable td:nth-child(6) , .detailTable td:nth-child(8) {
+    background-color: #fff;
+}
+
+
+.detailTable td:nth-child(2), .detailTable td:nth-child(4), .detailTable td:nth-child(5), .detailTable td:nth-child(6) {
+    text-align: left;
+}
+
+.uistlagDetail{
+	width: 100%;
+	height: 50px;
+	background-color:#F7F7F7; 
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.DetailLeft{
+	width: 5%;
+	background-color:#F7F7F7; 
+	float: left;
+	height: 50px;
+}
+
+.DetailRight{
+	    width: 95%;
+    height: 50px;
+    float: left;
+    background-color: #FFFFFF; 
+}
+
+.DetailText{
+	color:#797979; 
+	font-size: 16px;
+	padding: 19px;
+}
+
+.hoogsteSerie {
+    width: 100%;
+    float: left;
+    height: auto;
+    background-color: #f7f7f7;
+    text-align: center;
+    margin-bottom: 25px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    position: relative;
+}
+
+.hoogsteSerie th {
+    background-color: #fff;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.hoogsteSerie td {
+    padding: 20px 30px;
+    border-top: 1px solid #d8d8d8;
+    white-space: nowrap;
+}
+
+.hoogsteSerie td:nth-child(1) {
+    background-color: #fff;
+    text-align: center;
+}
+
+
+.hoogsteSerie td:nth-child(2) {
+    text-align: center;
+}
+
+.hoogsteSerie td:nth-child(3) {
+    text-align: left;
+    background-color: #fff;
+}
+
+.hoogsteSerie td:nth-child(4) {
+    text-align: center;
+}
+
+.thSpeelronde { width: 50px; padding: 20px; }
+.thPositie { width: 50px; padding: 20px; }
+.thLid { width: 20px; padding: 20px; text-align: center; }
+.thNaam { width: 50%; padding: 20px 30px; text-align: left; }
+.thWedstrijd { width: 40%; padding: 20px 30px; text-align: left; }
+.thDag { width: 10px; padding: 20px; }
+.thDatum { width: calc(25% - 40px); padding: 20px 30px; text-align: left; }
+.thButton { width: calc(25% - 40px); padding: 20px 30px; text-align: left; }
+.thHs { width: 50px; padding: 20px; text-align: center; }
+
+/* Teamleiders Table */
+
+.thTeamnummer{ width: 10%; padding: 25px; text-align: center;}
+.thTeamnaam{ width: 22.5%; padding: 25px;}
+.thTeamleider{ width: 22.5%; padding: 25px;}
+.thTelefoonnummer{ width: 22.5%; padding: 25px;}
+.thMobiel{ width: 22.5%; padding: 25px;}
+
+#teamleiders {
+    display: block;
+    clear: both;
+    background-color: #ebedf0;
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 25px 0px 0px 0px;
+}
+
+.teamleidersTable {
+    width: 100%;
+    float: left;
+    height: auto;
+    background-color: #f7f7f7;
+    text-align: left;
+    margin-bottom: 25px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    position: relative;
+}
+
+.teamleidersTable th {
+    background-color: #fff;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.teamleidersTable td {
+    padding: 20px 25px;
+    border-top: 1px solid #d8d8d8;
+    white-space: nowrap;
+}
+
+.teamleidersTable td:nth-child(1){
+    text-align: center;
+}
+
+.teamleidersTable td:nth-child(1), .teamleidersTable td:nth-child(3), .teamleidersTable td:nth-child(5) {
+    background-color: #fff;
+}
+
+/* Tussenstand Table */
+
+.thPositie{ width: 12.5%; padding: 25px;}
+.th_ts_Teamnummer{ width: 12.5%; padding: 25px;}
+.th_ts_Teamnaam{ width: 50%; padding: 25px;}
+.thAantalWedstrijden{ width: 12.5%; padding: 25px;}
+.thPunten{ width: 12.5%; padding: 25px;}
+
+#tussenstand {
+    display: block;
+    clear: both;
+    background-color: #ebedf0;
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 25px 0px 0px 0px;
+}
+
+.tussenstandTable {
+    width: 100%;
+    float: left;
+    height: auto;
+    background-color: #f7f7f7;
+    text-align: center;
+    margin-bottom: 25px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    position: relative;
+}
+
+.tussenstandTable th {
+    background-color: #fff;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.tussenstandTable td {
+    padding: 20px 25px;
+    border-top: 1px solid #d8d8d8;
+    white-space: nowrap;
+}
+
+.tussenstandTable th:nth-child(3){
+    text-align: left;
+}
+
+.tussenstandTable td:nth-child(3){
+    text-align: left;
+}
+
+.tussenstandTable td:nth-child(1), .tussenstandTable td:nth-child(3), .tussenstandTable td:nth-child(5) {
+    background-color: #fff;
+}
+
+
+.historie{
+    float: right;
+}
+
+#tables {
+    width: calc(100% - 340px);
+    float: left;
+    height: auto;
+    overflow-x: auto;
+}
+
+#tables-detail {
+    width: calc(100%);
+    float: left;
+    height: auto;
+    overflow-x: auto;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1040px;
+    margin: 0 auto;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    top: -40px;
+    border-radius: 30px;
+}
+
+.half {
+    width: calc(50% - 12.5px);
+    height: auto;
+    background-color: transparent;
+    float: left;
+    position: relative;
+    display: block;
+}
+
+#persoonlijkeGegevens {
+    margin-top: 40px;
+}
+
+#persoonlijkeGegevens article:nth-child(3n+3) {
+    margin-right: 0px;
+}
+
+.third {
+    width: 30%;
+    margin-right: 5%;
+    height: auto;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.third h5 {
+    text-transform: none !important;
+    color: #797979 !important;
+    letter-spacing: 0px !important;
+    margin-bottom: 10px !important;
+}
+
+.third p {
+    font-size: 13px !important;
+    line-height: 26px;
+}
+
+#contactForm {
+    display: block;
+    clear: both;
+    width: 100%;
+    height: auto;
+}
+
+#contactForm input {
+    padding: 20px;
+    border: 0px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#contactForm #naam {
+    width: calc(50% - 45px);
+    float: left;
+    background-color: white;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#contactForm #email {
+    width: calc(50% - 45px);
+    float: left;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+#contactForm #bericht {
+    width: calc(100% - 40px);
+    clear: both;
+    display: block;
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 0px;
+    height: 200px;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+}
+
+#contactForm #versturen {
+    float: right;
+    padding: 20px 60px;
+    margin-bottom: 60px;
+    background-color: #467853;
+    color: white;
+}
+
+
+header .container, #banner .container, #mobileMenu .container, #programmaMenu .container, #programma .container, #teamleiders .container, #tussenstand .container, #contact .container{
+    max-width: 1280px;
+    top: 0px; 
+    background-color: transparent;
+}
+
+#contact{
+    display: block;
+    clear: both;
+    background-color: #ebedf0;
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 25px 0px 0px 0px;
+}
+
+#wide {
+    max-width: 1280px;
+    top: -30px; 
+    border-radius: 0px;
+    padding-bottom: 40px;
+}
+
+#wide:after { 
+    content: " "; 
+    display: block;
+    clear: both;
+} 
+
+#banner {
+    width: 100%;
+    min-height: 660px;
+    /*    height: calc(100vh - 140px);*/
+    display: block;
+    background-image: url(../images/test5.jpg);
+    background-color: #eee;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#shapeFix {
+    display:inline-block;
+    font-size:0; /* clear whitespace*/
+    width: 260px;
+    background-color: #fff;
+    border-radius: 30px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 60px;
+}
+
+#banner article {
+    height: auto;
+    width: 260px;
+    padding: 40px 40px;
+    background-color: #fff;
+    float: right;
+    margin: 40px -40px;
+    border-radius: 30px;
+    text-align: center;
+    color: #797979;
+    display:inline-block;
+}
+
+.textLocatie { font-size: 18px; font-style: italic; display: block; margin-bottom: 5px; }
+.textTitel { font-size: 22px; font-weight: 700; display: block; margin-bottom: 5px; }
+.textInschrijfgeld { font-size: 18px; font-style: italic; display: block; margin-bottom: 10px; }
+.textOverige { font-size: 12px; font-style: italic; display: block; line-height: 15px; margin-bottom: 15px; }
+.textStartdatum { font-size: 14px; font-weight: 700; display: block; margin-bottom: 5px; }
+.textInschrijven { font-size: 14px; font-style: italic; display: block; line-height: 15px; margin-bottom: 15px;}
+.textSpeelschema { font-size: 12px; font-style: normal; display: block; line-height: 15px; margin-bottom: 15px;}
+.textSpeeldagen { font-size: 10px; font-style: italic; display: block; line-height: 15px; margin-bottom: 25px; }
+.textSpelsoort { font-size: 12px; font-weight: 700; display: block; }
+
+#about, #news {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    text-align: center;
+}
+
+#about article {
+    padding: 90px 120px 40px;
+}
+
+#news article {
+    padding: 90px 120px 90px;
+}
+
+#gallery {
+    width: 100%;
+    height: auto;
+    min-height: 235px;
+    background-color: #eee;
+}
+
+#gallery:after { 
+    content: " "; 
+    display: block;
+    clear: both;
+} 
+
+.galleryItem {
+    width: 25%;
+    height: 235px;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.galleryItemInfo {
+    background-color: rgba(70, 120, 83, 0.85);
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.galleryItemInfo article {
+    padding: 50px;
+    text-align: center;
+}
+
+.galleryItemInfo article p {
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 22px;
+}
+
+#first { background-image: url(../images/test1.jpg); }
+#second { background-image: url(../images/test2.jpg); }
+#third { background-image: url(../images/test3.jpg); }
+#fourth { background-image: url(../images/test4.jpg); }
+
+#newsItems {
+    width: calc(100% - 360px);
+    height: auto;
+    min-height: 210px;
+    float: left;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.newsArticle {
+    width: 100%;
+    height: auto;
+    text-align: left;
+    display: block;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0px 5px 25px #ddd;
+}
+
+.newsArticle:after { 
+    content: " "; 
+    display: block;
+    clear: both;
+} 
+
+.newsImage {
+    float: left;
+    height: 100%;
+    min-height: 210px;
+    width: 280px;
+    border-left: 20px solid #467853;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.newsArticle article {
+    float: left;
+    height: auto;
+    width: calc(100% - 420px);
+    padding: 40px 60px 0px 60px !important;
+}
+
+.newsDate {
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+#slideshow {
+    width: 320px;
+    height: 440px;
+    margin-bottom: 25px;
+    background-color: #eee;
+    float: right;
+    position: relative;
+    z-index: 0;
+}
+
+
+#slideshow > div { 
+    position: absolute; 
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #467853;
+    clear: both;
+    display: block;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+footer:after { 
+    content: " "; 
+    display: block;
+    clear: both;
+} 
+
+footer .container {
+    background-color: transparent;
+    border-radius: 0px;
+    top: 0px;
+    clear: both;
+    display: block;
+}
+
+footer #left, footer #right {
+    width: calc(33.333% - 40px);
+    float: left;
+    height: auto;
+}
+
+footer #middle {
+    width: calc(33.333% - 40px);
+    float: left;
+    height: auto;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+footer p {
+    line-height: 30px;
+    font-size: 12px;
+    font-style: normal;
+    color: #fff;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1280px) {
+    #newsItems {
+        min-height: 275px;
+    }
+
+    .newsImage {
+        min-height: 275px;
+        width: 250px
+    }
+    
+    .newsArticle article {
+        float: left;
+        height: auto;
+        width: calc(100% - 350px);
+        padding: 40px !important;
+    }
+    
+    .newsArticle article p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+}
+
+@media screen and (max-width: 1080px) {
+    #tables {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    header {
+        height: 100px;
+    }
+    
+    #logo {
+        margin: 25px 0px;
+    }
+    
+    #hamburgerIcon, #hamburgerIconHide {
+        display: block;
+        float: right;
+        height: 40px;
+        width: 40px;
+        margin-top: 30px;
+        background-color: none;
+        padding: 0;
+        border: 0;
+    }
+    
+    #desktopMenu {
+        display: none;
+    }
+
+    #mobileMenu ul {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        margin-top: 15%;
+        float: left;
+        width: 100%;
+    }
+
+    #mobileMenu ul li {
+        display: block;
+        width: 100%;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    
+    #mobileMenu ul li a {
+        font-size: 25px !important;
+    }
+    
+    #historieBtn {
+        display: none;
+        visibility: hidden;
+    }
+    
+    #banner {
+        text-align: center;
+    }
+    
+    #about article {
+        padding: 90px 60px 40px;
+    }
+    
+    .galleryItem {
+        width: 50%;
+    }
+        
+    #slideshow {
+        float: none;
+        display: block;
+        clear: both;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    #newsItems {
+        width: 100%;
+    }
+
+    .newsImage {
+        float: left;
+        height: 100%;
+        min-height: 275px;
+        width: 300px;
+        border-left: 20px solid #467853;
+    }
+
+    .newsArticle article {
+        float: left;
+        height: auto;
+        width: calc(100% - 420px);
+        padding: 40px 40px 0px 60px !important;
+    }
+    
+    
+    #programmaMenu ul li {
+        display: none;
+    }
+    
+    #programmaMenuBtn {
+        display: block;
+        float: right;
+        height: 40px;
+        width: 40px;
+        margin-top: 15px;
+        background-color: none;
+        padding: 0;
+        border: 0;
+    }
+    
+    .half {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    article {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    
+    #shapeFix {
+        width: 100%;
+        float: left;
+    }
+    
+    #banner article {
+        width: calc(100% - 80px);
+        text-align: left;
+        margin: 40px 0px;
+    }
+    
+    #about article {
+        padding: 90px 20px 40px;
+    }
+    
+    #news article {
+        padding: 90px 20px 90px;
+    }
+    
+    .galleryItem {
+        width: 100%;
+    }
+    
+    .newsImage {
+        float: left;
+        height: 300px;
+        width: 100%;
+        border-top: 10px solid #467853;
+        border-left: 0px;
+    }
+
+    .newsArticle article {
+        float: left;
+        height: auto;
+        width: calc(100% - 60px);
+        padding: 40px 30px 0px 30px !important;
+    }
+    
+    .newsArticle article p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+        
+    .newsDate {
+        margin-bottom: 30px;
+    }
+    
+    #slideshow {
+        top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    footer #left {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    
+    footer #right {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer #middle {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    
+    h1 {
+        font-size: 18px;
+    }
+    
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="description">
+    <meta name="keywords" content="HTML,CSS,JavaScript, jQuery">
+    <meta name="author" content="Campus Creative Agency - Frank van Deursen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <title>OMBC - Homepage</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- NAVIGATIE -->
+    <header>
+        <div class="container">
+            <a href="index.html"><img src="images/logo.png" alt="OMBC Made" id="logo"></a>
+            <nav id="desktopMenu">
+                <ul>
+                    <li><a href="programma.html">Programma</a></li>
+                    <li><a href="uitslagen.html">Uitslagen</a></li>
+                    <li><a href="tussenstand.html">Tussenstand</a></li>
+                    <li><a href="sterktestaat.html">Sterktestaat</a></li>
+                    <li><a href="teamleiders.html">Teamleiders</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav> 
+            <button id="hamburgerIcon">
+                <img src="images/icons/hamburger.svg" alt="Menu">
+            </button>
+        </div>
+    </header>
+    
+    <nav id="mobileMenu">
+        <div class="container">
+            <button id="hamburgerIconHide">
+                <img src="images/icons/close.svg" alt="Terug">
+            </button>
+            <ul>
+                <li><a href="programma.html">Programma</a></li>
+                <li><a href="uitslagen.html">Uitslagen</a></li>
+                <li><a href="tussenstand.html">Tussenstand</a></li>
+                <li><a href="sterktestaat.html">Sterktestaat</a></li>
+                <li><a href="teamleiders.html">Teamleiders</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- BANNER SECTION (NOG NIET AF) -->
+    <section id="banner">
+        <div class="container">
+            <div id="shapeFix">
+                <article>
+                    <span class="textLocatie">B.V. 't Steegje / De Tijd</span>
+                    <span class="textTitel">Zomercompetitie 2017</span>
+                    <span class="textInschrijfgeld">Inschrijfgeld $5,- pp</span>
+                    <span class="textOverige">(Inschrijfgeld wordt verdubbeld door de organisatie voor een mooie prijzenpot)</span>
+                    <span class="textStartdatum">Gaat van start op 21 maart (week 12)</span>
+                    <span class="textInschrijven">Opgeven bij Cafe 't Steegje of Cafe De Tijd. Inschrijven kan t/m zondag 5 maart.</span>
+                    <span class="textSpeelschema">Speelschema wordt gemaakt navenant van de inschrijvingen!</span>
+                    <span class="textSpeeldagen"><b>Speeldagen:</b>Dinsdag, Woensdag, Donderdag en eventueel vrijdag</span>
+                    <span class="textSpelsoort">Spelsoort is Libre</span>
+                </article>
+            </div>
+        </div>    
+    </section>
+    
+    <section id="about">
+        <div class="container">
+           <article>
+                <h2>OMBC Made</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+            </article>
+        </div>
+    </section>
+    
+    <section id="gallery">
+        <div class="galleryItem" id="first">
+            <div class="galleryItemInfo">
+                <article>
+                    <h4>Test</h4>
+                    <p>Klasse 4 - Hof van Holland 5<br><br>Niels en Marco Mureau ontbreken op deze foto.</p>
+                </article>
+            </div>
+        </div>
+        <div class="galleryItem" id="second">
+            <div class="galleryItemInfo">
+                <article>
+                    <h4>Test</h4>
+                    <p>Klasse 4 - Hof van Holland 5<br>Niels en Marco Mureau ontbreken op deze foto.</p>
+                </article>
+            </div>
+        </div>
+        <div class="galleryItem" id="third">
+            <div class="galleryItemInfo">
+                <article>
+                    <h4>Test</h4>
+                    <p>Klasse 4 - Hof van Holland 5<br>Niels en Marco Mureau ontbreken op deze foto.</p>
+                </article>
+            </div>
+        </div>
+        <div class="galleryItem" id="fourth">
+            <div class="galleryItemInfo">
+                <article>
+                    <h4>Test</h4>
+                    <p>Klasse 4 - Hof van Holland 5<br>Niels en Marco Mureau ontbreken op deze foto.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    
+    <section id="news">
+        <div class="container">
+            <article>
+                <h2>Nieuws</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </article>
+        </div>
+        <div class="container" id="wide">
+            <div id="newsItems">
+                <div class="newsArticle">
+                    <div class="newsImage" style="background-image: url(images/test4.jpg);"></div>
+                    <article>
+                        <h3>Mooie biljart demonstratie</h3>
+                        <p>Afgelopen zondag was de biljart demonstratie door Tayfun Tasdemir</p>
+                        <p class="newsDate">26 maart 2017</p>
+                    </article>
+                </div>
+                <div class="newsArticle">
+                    <div class="newsImage" style="background-image: url(images/test1.jpg);"></div>
+                    <article>
+                        <h3>Mooie biljart demonstratie</h3>
+                        <p>Afgelopen zondag was de biljart demonstratie door Tayfun Tasdemir</p>
+                        <p class="newsDate">26 maart 2017</p>
+                    </article>
+                </div>
+            </div>
+            <div id="slideshow">
+                <div><img src="images/reclames/segeren.jpg" alt="Segeren"></div>
+                <div><img src="images/reclames/rfm_montage.jpg" alt="RFM Montage B.V."></div>
+                <div><img src="images/reclames/fortune.jpg" alt="Fortune Coffee"></div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <section id="left">
+                <h5>Footer 1</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio debitis molestiae quisquam quas impedit, obcaecati. Natus voluptatibus delectus laboriosam maiores aliquam vitae, pariatur id harum placeat quisquam, cumque aspernatur dolorum.</p>
+            </section>
+            <section id="middle">
+                <h5>Footer 2</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio debitis molestiae quisquam quas impedit, obcaecati. Natus voluptatibus delectus laboriosam maiores aliquam vitae, pariatur id harum placeat quisquam, cumque aspernatur dolorum.</p>
+            </section>
+            <section id="right">
+                <h5>Footer 3</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio debitis molestiae quisquam quas impedit, obcaecati. Natus voluptatibus delectus laboriosam maiores aliquam vitae, pariatur id harum placeat quisquam, cumque aspernatur dolorum.</p>
+            </section>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

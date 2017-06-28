@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="description">
+    <meta name="keywords" content="HTML,CSS,JavaScript, jQuery">
+    <meta name="author" content="Campus Creative Agency - Rick van Boxtel">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <title>OMBC - Homepage</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- NAVIGATIE -->
+    <header>
+        <div class="container">
+            <a href="index.html"><img src="images/logo.png" alt="OMBC Made" id="logo"></a>
+            <nav id="desktopMenu">
+                <ul>
+                    <li><a href="programma.html">Programma</a></li>
+                    <li class="active"><a href="uitslagen.html">Uitslagen</a></li>
+                    <li><a href="tussenstand.html">Tussenstand</a></li>
+                    <li><a href="sterktestaat.html">Sterktestaat</a></li>
+                    <li><a href="teamleiders.html">Teamleiders</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav> 
+            <button id="hamburgerIcon">
+                <img src="images/icons/hamburger.svg" alt="Menu">
+            </button>
+        </div>
+    </header>
+    
+    <nav id="mobileMenu">
+        <div class="container">
+            <button id="hamburgerIconHide">
+                <img src="images/icons/close.svg" alt="Terug">
+            </button>
+            <ul>
+                <li><a href="programma.html">Programma</a></li>
+                <li><a href="uitslagen.html">Uitslagen</a></li>
+                <li><a href="tussenstand.html">Tussenstand</a></li>
+                <li><a href="sterktestaat.html">Sterktestaat</a></li>
+                <li><a href="teamleiders.html">Teamleiders</a></li>
+                
+            </ul>
+        </div>
+       
+    </nav>
+
+    <nav id="programmaMenu">
+        <div class="container">
+            <ul>
+                <h1>Driebanden 2017</h1>
+                <li class="menuSpacer"></li>
+                <li class="active"><a href="#">Klasse 1</a></li>
+                <li class="menuSpacer"></li>
+                <li><a href="#">Klasse 2</a></li>
+                <li class="menuSpacer"></li>
+                <li><a href="#">Klasse 3</a></li>
+                <li class="menuSpacer"></li>
+                <li><a href="#">Klasse 4</a></li>
+               
+            </ul>
+            <button id="programmaMenuBtn">
+                <img src="images/icons/hamburger.svg" alt="Menu">
+            </button>  
+            
+            <ul id="historieBtn">
+                <li ><a href="#">Historie  <svg version="1.1" id="Chevron_down" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M4.516,7.548c0.436-0.446,1.043-0.481,1.576,0L10,11.295l3.908-3.747c0.533-0.481,1.141-0.446,1.574,0
+	c0.436,0.445,0.408,1.197,0,1.615c-0.406,0.418-4.695,4.502-4.695,4.502C10.57,13.888,10.285,14,10,14s-0.57-0.112-0.789-0.335
+	c0,0-4.287-4.084-4.695-4.502C4.107,8.745,4.08,7.993,4.516,7.548z"/>
+</svg></a></li>
+                  <div class="dropdown-content">
+                    <li>Driebanden 2012</li>
+                    <li>Libre 2012 - 2013</li>
+                    <li>Driebanden 2013</li>
+                    <li>Libre 2013 - 2014</li>
+                    <li>Driebanden 2014</li>
+                    <li>Libre 2014 - 2015</li>
+                    <li>Driebanden 2015</li>
+                    <li>Libre 2015 - 2016</li>
+                    <li>Driebanden 2016</li>
+                    <li>Libre 2016 - 2017</li>
+                    <li>Huidige competitie</li>
+                  </div>
+            </ul>
+        </div>
+        
+         
+    </nav>
+    
+     <section id="programma">
+        <div class="container">
+            <div id="tables">
+                <table class="programmaTable">
+                <tr>
+                    <th class="thSpeelronde">Speelronde</th>
+                    <th class="thWedstrijd">Wedstrijd</th>
+                    <th class="thDag">Uitslag</th>
+                    <th class="thDag">Dag</th>
+                    <th class="thDatum">Datum</th>
+                    <th class="thButton"></th>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Amerhal 1 - 't Steegje 2</td>
+                    <td>7 - 2 </td>
+                    <td>ma</td>
+                    <td>10-04-2017 om 19:30</td>
+                    <td><a style=" text-decoration: none;" href="detail-uitslag.html">></a></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Hof van Holland 2 - Freggels 1</td>
+                    <td>7 - 2 </td>
+                    <td>ma</td>
+                    <td>10-04-2017 om 19:30</td>
+                    <td><a style=" text-decoration: none;" href="detail-uitslag.html">></a></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Hof van Holland 4 - 't Steegje 3</td>
+                    <td>7 - 2 </td>
+                    <td>ma</td>
+                    <td>10-04-2017 om 19:30</td>
+                    <td><a style=" text-decoration: none;" href="detail-uitslag.html">></a></td>
+                </tr>
+                    
+                </table>
+                
+                <table class="programmaTable">
+                <tr>
+                    <th class="thSpeelronde">Speelronde</th>
+                    <th class="thWedstrijd">Wedstrijd</th>
+                    <th class="thDag">Uitslag</th>
+                    <th class="thDag">Dag</th>
+                    <th class="thDatum">Datum</th>
+                    <th class="thButton"></th>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Amerhal 1 - 't Steegje 2</td>
+                    <td>7 - 2 </td>
+                    <td>ma</td>
+                    <td>10-04-2017 om 19:30</td>
+                    <td><a style=" text-decoration: none;" href="detail-uitslag.html">></a></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Hof van Holland 2 - Freggels 1</td>
+                    <td>7 - 2 </td>
+                    <td>ma</td>
+                    <td>10-04-2017 om 19:30</td>
+                    <td><a style=" text-decoration: none;" href="detail-uitslag.html">></a></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Hof van Holland 4 - 't Steegje 3</td>
+                    <td>7 - 2 </td>
+                    <td>ma</td>
+                    <td>10-04-2017 om 19:30</td>
+                    <td><a style=" text-decoration: none;" href="detail-uitslag.html">></a></td>
+                </tr>
+                    
+                </table>
+                
+                <table class="programmaTable">
+                <tr>
+                    <th class="thSpeelronde">Speelronde</th>
+                    <th class="thWedstrijd">Wedstrijd</th>
+                    <th class="thDag">Uitslag</th>
+                    <th class="thDag">Dag</th>
+                    <th class="thDatum">Datum</th>
+                    <th class="thButton"></th>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Amerhal 1 - 't Steegje 2</td>
+                    <td>7 - 2 </td>
+                    <td>ma</td>
+                    <td>10-04-2017 om 19:30</td>
+                    <td><a style=" text-decoration: none;" href="detail-uitslag.html">></a></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Hof van Holland 2 - Freggels 1</td>
+                    <td>7 - 2 </td>
+                    <td>ma</td>
+                    <td>10-04-2017 om 19:30</td>
+                    <td><a style=" text-decoration: none;" href="detail-uitslag.html">></a></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Hof van Holland 4 - 't Steegje 3</td>
+                    <td>7 - 2 </td>
+                    <td>ma</td>
+                    <td>10-04-2017 om 19:30</td>
+                    <td><a style=" text-decoration: none;" href="detail-uitslag.html">></a></td>
+                </tr>
+                    
+                </table>
+            </div>
+            <div id="slideshow">
+                <div><img src="images/reclames/segeren.jpg" alt="Segeren"></div>
+                <div><img src="images/reclames/rfm_montage.jpg" alt="RFM Montage B.V."></div>
+                <div><img src="images/reclames/fortune.jpg" alt="Fortune Coffee"></div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <section id="left">
+                <h5>Footer 1</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio debitis molestiae quisquam quas impedit, obcaecati. Natus voluptatibus delectus laboriosam maiores aliquam vitae, pariatur id harum placeat quisquam, cumque aspernatur dolorum.</p>
+            </section>
+            <section id="middle">
+                <h5>Footer 2</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio debitis molestiae quisquam quas impedit, obcaecati. Natus voluptatibus delectus laboriosam maiores aliquam vitae, pariatur id harum placeat quisquam, cumque aspernatur dolorum.</p>
+            </section>
+            <section id="right">
+                <h5>Footer 3</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio debitis molestiae quisquam quas impedit, obcaecati. Natus voluptatibus delectus laboriosam maiores aliquam vitae, pariatur id harum placeat quisquam, cumque aspernatur dolorum.</p>
+            </section>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
